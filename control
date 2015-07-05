@@ -1,0 +1,9 @@
+Package: com.s1ris.ICMPd
+Name: ICMP Disabler
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Disable ICMP redirects at boot
+ Disables ICMP redirects used by DoubleDirect attacks. This adds a daemon that disables ICMP after every boot so you don't have to do it manually.
+Maintainer: s1ris
+Author: s1ris
+Section: System
